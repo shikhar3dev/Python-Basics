@@ -1,0 +1,55 @@
+Here's what it does step by step:
+
+```python
+def square(num):
+    return num * num
+
+ans = square(3)
+print(ans)
+```
+
+### Explanation
+
+1. `def square(num):`
+
+   * Defines a function named `square`.
+   * It takes one parameter, `num`.
+
+2. `return num * num`
+
+   * Multiplies `num` by itself.
+   * Returns the result to the caller.
+
+3. `ans = square(3)`
+
+   * Calls the function with `num = 3`.
+   * The function returns `9`.
+   * `ans` stores the value `9`.
+
+4. `print(ans)`
+
+   * Prints the value of `ans`.
+
+### Output
+
+```text
+9
+```
+
+### You can also call it with other numbers:
+
+```python
+print(square(5))    # 25
+print(square(10))   # 100
+print(square(-4))   # 16
+```
+
+**Output:**
+
+```text
+25
+100
+16
+```
+
+This is a good example of a Python function that **takes an argument and returns a value**.
