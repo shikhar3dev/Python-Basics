@@ -1,0 +1,7 @@
+def custom_abs(x):
+    if x < 0:
+        return -x
+    return x
+
+print(custom_abs(-10))  # Returns 10
+print(custom_abs(3.5))  # Returns 3.5
