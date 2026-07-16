@@ -1,0 +1,15 @@
+def sum_of_two_list(lst1, lst2):
+    new_list = []
+    n = len(lst1)
+
+    for i in range(n):
+        total = lst1[i] + lst2[i]
+        new_list.append(total)
+
+    return new_list
+
+lst1 = [1, 2, 3]
+lst2 = [4, 5, 6]
+
+ans = sum_of_two_list(lst1, lst2)
+print(ans)
